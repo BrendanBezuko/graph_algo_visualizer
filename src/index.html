@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graph Visualization</title>
+    <link rel="stylesheet" href="./styles/graph_visual.css">
+</head>
+<body>
+
+<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+<div id="graph_preset_buttons_parent">
+    <h5 class="graph_preset_text">Presets:</h5>
+    <button class="graph_preset_buttons" id="graph_config_one">Dense DFS</button>
+    <button class="graph_preset_buttons" id="graph_config_two">Large Galaxy</button>
+    <button class="graph_preset_buttons" id="graph_config_three">2D graph</button>
+    <button class="graph_preset_buttons" id="graph_config_four">Shortest Path Galaxy</button>
+</div>
+
+<div id="main_canvas_parent">
+    <script defer src="bundle.js"></script>
+    <canvas id="main_canvas"></canvas>
+    <div id="dat_gui"></div>
+    <div id="canvas_console"></div>
+    <div id="THREE_stats"></div>
+</div>
+
+</body>
+</html>
