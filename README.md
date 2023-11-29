@@ -1,9 +1,8 @@
 # Graph Visulizer
-A webapp that shows a visual form of a 3d graph and animates algorithms on the graph 
 
 ## Description
 
-This project is a resource-intensive application that leverages WebGL through Three.js, and is built using Webpack and Node.js. It implements a Depth-First Search (DFS) algorithm for graphical exploration and utilizes the Floyd-Warshall algorithm for finding the shortest paths in a weighted graph, including path reconstruction.
+This project is a application that leverages WebGL through Three.js, and is built using Webpack and Node.js. It implements a Depth-First Search (DFS) algorithm for graphical exploration and utilizes the Floyd-Warshall algorithm for finding the shortest paths in a weighted graph, including path reconstruction.
 
 **Warning:** Due to its computational intensity, this application may cause performance issues or crashes in some browsers.
 
@@ -13,7 +12,7 @@ This project is a resource-intensive application that leverages WebGL through Th
 - Node.js
 - Three.js
 
-## Features
+## Animated Algorithms
 
 - **DFS Algorithm:** Traverses complex graphs efficiently.
 - **Floyd-Warshall Algorithm:** Finds shortest paths and reconstructs them, allowing for detailed path analysis.
