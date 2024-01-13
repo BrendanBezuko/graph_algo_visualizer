@@ -12,6 +12,9 @@ This project is a application that leverages WebGL through Three.js, and is buil
 - Node.js
 - Three.js
 
+![Screenshot of Application](screenshots/graph_sim_cap.png)
+![Screenshot of Application](screenshots/graph_sim_cap4.png)
+
 ## Animated Algorithms
 
 - **DFS Algorithm:** Traverses complex graphs efficiently.
@@ -34,8 +37,7 @@ To get this project up and running on your local machine:
    - Ensure you have Node.js and npm installed on your system. If not, download and install from [Node.js official website](https://nodejs.org/).
 
 2. **Clone the Repository:**
-   - `git clone [repository-url]`
-   - Replace `[repository-url]` with the URL of this repository.
+   - `git clone https://github.com/brendanb2023/graph_algo_visualizer.git`
 
 3. **Install Dependencies:**
    - Navigate to the project directory and run:
@@ -49,10 +51,4 @@ To get this project up and running on your local machine:
      npm run dev
      ```
    - This will start the server and the application should be accessible on your local machine.
-
-## Screenshots
-
-![Screenshot of Application](screenshots/graph_sim_cap.png)
-![Screenshot of Application](screenshots/graph_sim_cap4.png)
-
 
