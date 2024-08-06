@@ -22,7 +22,9 @@ This project is a application that leverages WebGL through Three.js, and is buil
 
 ## Known Issues and Bugs
 
-- **Floyd-Warshall Limitation:** There's an unidentified bug where the Floyd-Warshall algorithm doesn't always function as expected. Investigation and debugging are ongoing.
+- **Floyd-Warshall Limitation:** There's an unidentified bug where the Floyd-Warshall algorithm doesn't always function as expected. Also only on **Mac** ArrayIndex out of bounds. Investigation and debugging are ongoing.
+
+- **Does not scale correctly for macos:** The scale is totally incorrect ony my new macbook, but was totally fine windows linux with a nvidia gpu.
 
 ## Future Improvements
 
