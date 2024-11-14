@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a application that leverages WebGL through Three.js, and is built using Webpack and Node.js. It implements a Depth-First Search (DFS) algorithm for graphical exploration and utilizes the Floyd-Warshall algorithm for finding the shortest paths in a weighted graph, including path reconstruction.
+This project is a web application that graphical displays a Depth-First Search (DFS) algorithm and the Floyd-Warshall algorithm for finding the shortest paths.
 
 **Warning:** Due to its computational intensity, this application may cause performance issues or crashes in some browsers.
 
@@ -21,15 +21,16 @@ This project is a application that leverages WebGL through Three.js, and is buil
 - **Floyd-Warshall Algorithm:** Finds shortest paths and reconstructs them, allowing for detailed path analysis.
 
 ## Known Issues and Bugs
+- **Spaghetti Code** Please don't think this is my best code. This was tricky to build, but would greatly benifit from moving to a reactive framework or just better decoupling.
 
-- **Floyd-Warshall Limitation:** There's an unidentified bug where the Floyd-Warshall algorithm doesn't always function as expected. Also only on **Mac** ArrayIndex out of bounds. Investigation and debugging are ongoing.
+- **Floyd-Warshall Limitation:** There's an unidentified bug where the Floyd-Warshall algorithm doesn't always function as expected.Investigation and debugging are ongoing.
 
 - **Does not scale correctly for macos:** The scale is totally incorrect ony my new macbook, but was totally fine windows linux with a nvidia gpu.
 
 ## Future Improvements
 
 - **Interactive Nodes:** Plans to add functionality for users to click on nodes to select paths manually.
-- **Enhanced Graphical Models:** More intricate graphs to model real-world objects and scenarios are being considered.
+- **Enhanced Graphical Models:** Allowing the user to upload their own weight graphs, possibly even software to turn a 3D mesh into a weight graph.
 
 ## Installation and Usage
 
