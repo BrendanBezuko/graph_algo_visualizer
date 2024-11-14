@@ -18,19 +18,19 @@ This project is a web application that graphical displays a Depth-First Search (
 ## Animated Algorithms
 
 - **DFS Algorithm:** Traverses complex graphs efficiently.
-- **Floyd-Warshall Algorithm:** Finds shortest paths and reconstructs them, allowing for detailed path analysis.
+- **Floyd-Warshall Algorithm:** Finds the shortest path between nodes and stores the reconstruction of finding it, allowing for animation.
 
 ## Known Issues and Bugs
-- **Spaghetti Code** Please don't think this is my best code. This was tricky to build, but would greatly benifit from moving to a reactive framework or just better decoupling.
-
+- **Spaghetti Code** Please don't think this is my best code. This was tricky to build, but would greatly benifit from moving to a framework with a virtual dom, or just better decoupling in general. I probably won't fix this because I'm not a graphics programmer, but who knows I might check back later.
 - **Floyd-Warshall Limitation:** There's an unidentified bug where the Floyd-Warshall algorithm doesn't always function as expected.Investigation and debugging are ongoing.
-
 - **Does not scale correctly for macos:** The scale is totally incorrect ony my new macbook, but was totally fine windows linux with a nvidia gpu.
+- **Lower Performance** Could benifit from implementing it with shaders taking the load off the cpu.
+- **Other Performance issues** Unknown performance issues causing an unreasonable framerate drop.
 
 ## Future Improvements
 
 - **Interactive Nodes:** Plans to add functionality for users to click on nodes to select paths manually.
-- **Enhanced Graphical Models:** Allowing the user to upload their own weight graphs, possibly even software to turn a 3D mesh into a weight graph.
+- **Enhanced Graphical Models:** Allowing the user to upload their own weighted graphs, possibly even software to turn a 3D mesh into a weighted graph. Textures would also be interesting allowing 2D graphs to overlay maps or other demonstratives.
 
 ## Installation and Usage
 
